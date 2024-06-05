@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2><p id = 'hello_playerName'></p></h2>
+    </header>
+
+    <div id ='time_counter' class = 'notification'></div>
+
+    <!-- --------------------------------------------------------------------- -->
+    
+    
+    <div class = 'grid-container' id="grid-container">
+    </div>
+    
+    <!-- --------------------------------------------------------------------- -->
+
+    <div class = 'down'>
+        <button class = "button" onclick="restart()">Restart</button>
+        <div class = 'notification' id = "winID"></div>
+        <button class = "button" onclick="quit()">Quit</button>
+    </div>
+
+    <div class="history_table">
+        <table></table>
+    </div>
+    
+    
+    <script src="game_page_script.js"></script>
+</body>
+</html>

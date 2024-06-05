@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to MEMORY GAME!</h1>
+    </header>
+    
+    <div class = 'notification'>
+        <h3>Please insert your name and choose a difficulty level</h3>
+    </div>
+
+    <div class = 'notification'>
+        <input type="text" value="Write tour name here" class = 'input' id="nameInputID">
+    </div>
+
+    <div class = 'buttons_area'>
+        <button class = 'button' id="submitNameButtonID" onclick="saveName()">Submit name</button>
+    </div>
+
+    <div class = 'notification'>
+        <h3>Please select difficulty level</h3>
+    </div>
+
+    <div class = buttons_area>
+        <button class = 'button' id="easyButton" onclick="saveDiff(6)">4 x 3</button>
+        <button class = 'button' id="midButton" onclick="saveDiff(8)">4 x 4</button>
+        <button class = 'button' id="hardButton" onclick="saveDiff(10)">4 x 5</button>
+    </div>
+
+    <div class = buttons_area>
+        <button class = 'button' onclick="continueToGame()">Continue to game</button>
+    </div>
+
+
+
+
+
+    
+ 
+    <script src="home_page_script.js"></script>
+</body>
+</html>
